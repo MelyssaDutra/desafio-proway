@@ -18,21 +18,21 @@ public class Main {
         if (args.length > 0) {
             new ProcessArgs().process(args);
         } else {
-            // Aqui é que chamamos os metodos pertinentes
+//             Aqui é que chamamos os metodos pertinentes
 
             Run run = new Run();// Criar Objeto responsavel bom absttrair a execução dos Questões
 
-           run.all(); // Executar todas as quetões com valores default com base no enuciando
-//            run.all(10, "tyteetor", "ifailuhkqq"); // Executar todas as questões com valores de entrada
-//
-//            run.escada(); // executa a questão com valor default conforme enuciado
-//            run.escada(10); // Executar todas as questões com valores de entrada
-//
-//            run.senha(); // executa a questão com valor default conforme enuciado
-//            run.senha("Htgg"); // Executar todas as questões com valores de entrada
-//
-//            run.anagrama(); // executa a questão com valor default conforme enuciado
-//            run.anagrama("JoofgttHf"); // Executar todas as questões com valores de entrada
+            run.all(); // Executar todas as quetões com valores default com base no enuciando
+            run.all(10, "tyteetor", "ifailuhkqq"); // Executar todas as questões com valores de entrada
+
+            run.escada(); // executa a questão com valor default conforme enuciado
+            run.escada(6); // Executar todas as questões com valores de entrada
+
+            run.senha(); // executa a questão com valor default conforme enuciado
+            run.senha("Htgg"); // Executar todas as questões com valores de entrada
+
+            run.anagrama(); // executa a questão com valor default conforme enuciado
+            run.anagrama("JoofgttHf"); // Executar todas as questões com valores de entrada
         }
     }
 }
