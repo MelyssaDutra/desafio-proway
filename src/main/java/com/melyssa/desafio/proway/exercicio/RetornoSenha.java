@@ -1,0 +1,69 @@
+package com.melyssa.desafio.proway.exercicio;
+
+public class RetornoSenha {
+    private boolean forte;
+    private String msg;
+    private String senha;
+    private String sugestao;
+
+    public RetornoSenha(boolean forte, String msg, String senha, String sugestao) {
+        this.forte = forte;
+        this.msg = msg;
+        this.senha = senha;
+        this.sugestao = sugestao;
+    }
+
+    public RetornoSenha() {
+    }
+
+    public boolean isForte() {
+        return forte;
+    }
+
+    public void setForte(boolean forte) {
+        this.forte = forte;
+    }
+
+    public String getMsg() {
+        return msg;
+    }
+
+    public void setMsg(String msg) {
+        this.msg = msg;
+    }
+
+    public String getSenha() {
+        return senha;
+    }
+
+    public void setSenha(String senha) {
+        this.senha = senha;
+    }
+
+    public String getSugestao() {
+        return sugestao;
+    }
+
+    public void setSugestao(String sugestao) {
+        this.sugestao = sugestao;
+    }
+
+    @Override
+    public String toString() {
+        return "-------------------Questão Escada" + "\n" +
+                "É Forte: " + (forte ? "SIM" : "NÂO") + "\n" +
+                "Messagem: " + msg + "\n" +
+                "Sugestão: " + sugestao + "\n" +
+                "senha Informada: " + senha;
+    }
+
+    public void detalheSenha() {
+        System.out.println("-------------------Questão Escada");
+        System.out.println("É forte        : " + (this.isForte() ? "SIM" : "NÂO"));
+        System.out.println("Menssagem      : " + this.getMsg());
+        if (!this.isForte())
+            System.out.println("Segestão: " + this.getSugestao());
+        System.out.println("Senha Informada: " + this.getSenha());
+    }
+
+}

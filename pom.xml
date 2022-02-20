@@ -32,7 +32,7 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>br.com.elizane.capdesafio.Capdesafio</mainClass>
+                            <mainClass>com.melyssa.desafio.proway.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
