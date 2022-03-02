@@ -3,25 +3,25 @@
 
 
 
-**O projeto voi feito em java com maven, eu procurei atenter os requisitos e implementar algums funcionalidades por minha conta, foi implementado um CLI onde posibilitar testar todas as execuções das questões com comandos espessificos**
+**O projeto foi feito em java com main, eu procurei atenter os requisitos e implementar algumas funcionalidades por minha conta, foi implementado um CLI onde posibilitou testar todas as execuções das questões com comandos especificos**
 
 > Projeto DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI
 * Questão Escada
 * Questão Validação de senha
 * Questão Anagrama
 
-> Segue abaixo a forma de executa para cada questão, uma por vez ou todas em uma unica chamada
+> Segue abaixo a forma de executar para cada questão, uma por vez ou todas em uma única chamada
 
-* **Class Main:** É a class principal com metodo static **main** onde ela estará espera argumentos como entra, caso não seja oferecido nem uma argumento como entrada ela ira executar os metodos dentro do bloco else
+* **Class Main:** É a class principal com metodo static **main** onde ela estará a espera de argumentos como entrada, caso não seja oferecido nem uma argumento como entrada ela irá executar os metodos dentro do bloco else
 * **Class RunQuestoes:** responsável pela execução das questões
 
 **Exemplos:**
-<p>obs.: O codigo deverar ser escrito dentro do bloco else e não entrar com nem um argumento no String[] args</p>
+<p>obs.: O codigo deverá ser escrito dentro do bloco else e não entrar com nem um argumento no String[] args</p>
 
 ```
-Run run = new Run();// Criar Objeto responsavel bom absttrair a execução dos Questões
+Run run = new Run();// Criar Objeto responsavel por abstrair a execução das Questões
 
-run.all(); // Executar todas as quetões com valores default com base no enuciando
+run.all(); // Executar todas as questões com valores default com base no enuciado
 run.all(10, "tyteetor", "ifailuhkqq"); // Executar todas as questões com valores de entrada
 ```
 **Saida de todas as Questões**
@@ -29,9 +29,9 @@ run.all(10, "tyteetor", "ifailuhkqq"); // Executar todas as questões com valore
 
 
 ```
-Run run = new Run();// Criar Objeto responsavel bom absttrair a execução dos Questões
+Run run = new Run();// Criar Objeto responsavel por abstrair a execução dos Questões
 
-run.escada(); // executa a questão com valor default conforme enuciado
+run.escada(); // executa a questão com valor default conforme enunciado
 run.escada(6); // Executar todas as questões com valores de entrada
 
 ```
@@ -41,9 +41,9 @@ run.escada(6); // Executar todas as questões com valores de entrada
 
 
 ```
-Run run = new Run();// Criar Objeto responsavel bom absttrair a execução dos Questões
+Run run = new Run();// Criar Objeto responsavel por abstrair a execução das Questões
 
-run.senha(); // executa a questão com valor default conforme enuciado
+run.senha(); // executa a questão com valor default conforme enunciado
 run.senha("Htgg"); // Executar todas as questões com valores de entrada
 
 ```
@@ -53,21 +53,21 @@ run.senha("Htgg"); // Executar todas as questões com valores de entrada
 
 
 ```
-Run run = new Run();// Criar Objeto responsavel bom absttrair a execução dos Questões
+Run run = new Run();// Criar Objeto responsavel por abstrair a execução das Questões
 
-run.anagrama(); // executa a questão com valor default conforme enuciado
+run.anagrama(); // executa a questão com valor default conforme enunciado
 run.anagrama("JoofgttHf"); // Executar todas as questões com valores de entrada
 
 ```  
 **Saida Questão 03**
 ![anagrama](https://user-images.githubusercontent.com/98764113/154860553-17814a9c-08d0-46ea-a5f1-da32e9cc4a11.png)
 
-> CLI basico para 'brincamos' com o .jar no terminal
+> CLI basico para 'brincarmos' com o .jar no terminal
 
 1. <strong>Comando Help</strong>
-    * Imprime todos os comandos suportado
+    * Imprime todos os comandos suportados
 
-2. <strong>Comando para executar da Esacada</strong>
+2. <strong>Comando para executar a Escada</strong>
     * Q1=default
     * ESCADA=default
     * E=default
@@ -76,7 +76,7 @@ run.anagrama("JoofgttHf"); // Executar todas as questões com valores de entrada
     * Q1=6
     * ESCADA=6
     * E=6
-    * Informe um valor inteiro, a escada será contruida com a quantidade de degaus informado
+    * Informe um valor inteiro, a escada será contruida com a quantidade de degraus informado
 
 3. <strong>Comando para executar a verificação da Senha</strong>
     * Q2=default
@@ -98,7 +98,7 @@ run.anagrama("JoofgttHf"); // Executar todas as questões com valores de entrada
     * Q3=kkddjjuusodfuap
     * ANAGRAMA=kkddjjuusodfuap
     * A=kkddjjuusodfuap
-    * ao informa uma palava o sistema ira procurar por anagramas
+    * ao informar uma palava o sistema irá procurar por anagramas
     
 > Estamos engajados com os mesmo valores
 >
