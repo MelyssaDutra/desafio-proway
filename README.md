@@ -105,5 +105,5 @@ run.anagrama("JoofgttHf"); // Executar todas as questões com valores de entrada
 >
 ![valores](https://user-images.githubusercontent.com/98764113/154861210-590bb1e8-57c7-47fc-8d1a-6d1cad78640e.png)
 
-#### Estou pronta para me dedicar no desenvolvimento de minha carreira em TI, eu preciso só de um voto de confinça, com dedicação e resiliência darei o máximo de mim
+#### Estou pronta para me dedicar no desenvolvimento de minha carreira em TI, eu preciso só de um voto de confiança, com dedicação e resiliência darei o máximo de mim
 ![rodape](https://user-images.githubusercontent.com/98764113/154861230-95cdb272-57dd-48c1-8b17-8d17570ad573.png)
