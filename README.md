@@ -1,8 +1,12 @@
 # MELYSSA GLEYCE DUTRA CARVALHO
 ![topo](https://user-images.githubusercontent.com/98764113/154860467-01b602a3-a1d0-4f53-93a0-b96f3521b686.png)
 
+---
 
+## 🤖 Procurando ajuda com Claude Sonnet 4 no IntelliJ?
+**[Clique aqui para ver o FAQ sobre Claude Sonnet 4](./CLAUDE_SONNET_4_FAQ.md)**
 
+---
 
 **O projeto foi feito em java com main, eu procurei atenter os requisitos e implementar algumas funcionalidades por minha conta, foi implementado um CLI onde posibilitou testar todas as execuções das questões com comandos especificos**
 
